@@ -70,8 +70,3 @@ The batch input mode is currently not supported in Marketplace web services.
 **6. Who should I contact to get help if I have questions about becoming a data publisher, or if I have issues during publishing?**
 
 Please contact the Azure Marketplace team at <datamarketbd@microsoft.com> for more information.
-
-
-
-
-
