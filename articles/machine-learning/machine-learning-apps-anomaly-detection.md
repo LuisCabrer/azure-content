@@ -13,8 +13,8 @@
 	ms.topic="reference" 
 	ms.tgt_pltfrm="na" 
 	ms.workload="multiple" 
-	ms.date="07/28/2015" 
-	ms.author="luisca"/>
+	ms.date="11/17/2015" 
+	ms.author="pingf"/>
 
 
 # Machine Learning Anomaly Detection Service#
