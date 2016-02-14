@@ -13,7 +13,7 @@
     ms.devlang="na" 
     ms.topic="article" 
     ms.date="2/12/2016" 
-    ms.author="olgali"/>
+    ms.author="chlovel"/>
 #Get help from Machine Learning Live Chat Support
 
 [Azure Machine Learning Studio](machine-learning-what-is-ml-studio.md) provides an intuitive interface for building machine learning models. There is a [Gallery](machine-learning-gallery-how-to-use-contribute-publish.md) and [Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=MachineLearning) to guide you along that way. 
