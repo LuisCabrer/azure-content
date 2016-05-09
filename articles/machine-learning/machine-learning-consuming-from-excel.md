@@ -3,7 +3,7 @@
 	description="Consume an Azure Machine Learning Web Service from Excel"
 	services="machine-learning"
 	documentationCenter=""
-	authors="LuisCabrer"
+	authors="TedWay"
 	manager="paulettm"
 	editor="cgronlun"/>
 
