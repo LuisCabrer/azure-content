@@ -3,7 +3,7 @@
 	description="Azure Machine Learning Recommendations - Quick Start Guide"
 	services="cognitive-services"
 	documentationCenter=""
-	authors="luisca"
+	authors="luiscabrer"
 	manager="paulettm"
 	editor="cgronlun"/>
 
@@ -13,7 +13,7 @@
 	ms.tgt_pltfrm="na"
 	ms.devlang="na"
 	ms.topic="article"
-	ms.date="03/14/2016"
+	ms.date="05/24/2016"
 	ms.author="luisca"/>
 
 # Quick start guide for the Cognitive Services Recommendations API
