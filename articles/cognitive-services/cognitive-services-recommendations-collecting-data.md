@@ -85,10 +85,19 @@ To use features as part of your build you need to:
 
 1. Make sure your catalog has features when you upload it.
 
-2. Trigger a ranking build. This will do the analysis on the importance/rank of the features.
+2. Trigger a ranking build. This will do the analysis on the importance/rank of the features. 
 
 3. Trigger a recommendations build, setting the following build parameters: Set useFeaturesInModel to true, allowColdItemPlacement to true, and modelingFeatureList should be set to the comma separated list of features that you want to use to enhance your model. See [Recommendations build type parameters](https://westus.dev.cognitive.microsoft.com/docs/services/Recommendations.V4.0/operations/56f30d77eda5650db055a3d0) for more information.
 
+
+### Features are Categorical
+This means that you should create features that resemble a category. For instance, price=9.34 is not a categorical feature. On the other hand, a feature like priceRange=Under5Dollars is a categorical feature. Another common mistake is to use the name of the item as a feature. This would cause the name of an item to be unique so it would not describe a category. Make sure the features represent categories of items.
+
+### How many/which features should I use?
+Ultimately the Recommendations build supports building a model with up to 20 features. You could assign more than 20 features to the items in your catalog, but you are expected to do a ranking build and pick only the features that rank high. (A feature with a rank of 2.0 or more is a really good feature to use!). 
+
+### When are features actually used?
+Features are used by the model when there is not enough transaction data to provide recommendations on transaction information alone. So features will have the greatest impact on “cold items” – items with few transactions. If all your items have sufficient transaction information you may not need to enrich your model with features.
 
 ## Usage Data ##
 A usage file contains information about how those items are used, or the transactions from your business.
